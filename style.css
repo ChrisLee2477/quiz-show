@@ -1,0 +1,72 @@
+*{
+    border: 1px solid red;
+    box-sizing: border-box;
+    background-color:blueviolet 
+}
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.quizArea{
+    display: flex;
+    justify-content: center;
+    padding:30px;
+    font-size: larger;
+    color: azure;
+    
+}
+.time{
+    font-size: 175%;
+
+}
+button{
+    width:100%;
+    background-color:aliceblue;
+    padding: 25px;
+    font-size: larger;
+    margin: 5px;
+}
+.response1{
+background-color: aqua;
+padding: 50px;
+}
+.response2{
+    background-color: chartreuse;
+    padding: 50px;
+}
+.response3{
+    background-color: deepskyblue;
+    padding: 50px;
+}
+.response4{
+    background-color: lightcoral;
+    padding: 50px;
+}
+
+.highscoreHeader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:lavenderblush;
+}
+
+#save{
+    padding:0px;
+    width:auto
+}
+#initials{
+    background-color: white;
+    padding: 2px;
+    margin: 10px;
+}
+label{
+    font-size: larger;
+}
+.highscoreBody{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
