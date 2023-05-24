@@ -11,7 +11,7 @@ var save = document.querySelector(".save")
 
 
 var score = 0
-var secondsLeft = 600;
+var secondsLeft = 50;
 var index = 0
 
 questions =[{
